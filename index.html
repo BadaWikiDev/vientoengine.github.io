@@ -3,11 +3,83 @@
 	<head>
 		<meta charset="utf-8">
 		<title>VientoEngine</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+		<script src="https://unpkg.com/type-hangul"></script>
+		<link rel="shortcut icon" href="/views/main_css/file/favicon.ico">
+		<meta name="title" content="VientoEngine">
+        <meta name="keywords" content="Python Based Wiki Engine. Viento">
+        <meta name="description" content="Python Based Wiki Engine. Viento">
+		<meta property="og:type" content="website"> 
+        <meta property="og:title" content="VientoEngine">
+        <meta property="og:description" content="Python Based Wiki Engine. Viento">
+        <meta property="og:url" content="https://github.com/BadaWikiDev/VientoEngine">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#00AFFF">
 	</head>
+	<style>
+			body { font-family: 나눔스퀘어, NanumSquare, sans-serif; }
+			.first { width: 100%; height: 100vh; position: relative; background: linear-gradient(to right, #00afff, #008dcf); }
+			.jumbotron1 { color: #ffffff; transform: translate(-50%, -50%); position: relative; text-align: center; top: 40%; left: 50%; }
+			.title { vertical-align: top; }
+			.bigtext { font-size: 48px; }
+			.normal { font-weight: 400; }
+			.bold { font-weight: 700; }
+			.bolder { font-weight: 800; }
+			.light { font-weight: 300; }
+			.card-img-overlay { color: black; }
+			.middletext { font-size: 24px; }
+			.infotitle { margin-top: 30px; margin-bottom: 30px; }
+			table { background-color: #f5f5f5; width: 100%; }
+			td { padding: 10px 20px; border: 1px solid #dddddd; }
+			footer { font-size: 16px; margin: 30px 0; }
+	</style>
 	<body>
-		VientoEngine
+		<div class="first">
+			<nav class="navbar navbar-expand-lg sticky-top navbar-dark bold", style="background-color: transparent; padding: 30px;">
+				<div class="container">
+					<a class="navbar-brand" href="#">VientoEngine</a>
+					  <div class="collapse navbar-collapse bolder" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#main1">엔진 소개</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="#main2">설치 가이드</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="#main3">마이그레이션 가이드</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="main4">개발 현황</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="jumbotron1" style="background-color: transparent;">
+				<div class="title">
+					<div class="bolder bigtext" id="maintitle">Python Based Wiki Engine. Viento</div>
+					<p>VientoEngine은 빠르고 비동기적인 위키 엔진입니다.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<br>
+			<div class="bolder bigtext infotitle">엔진 소개</div>
+			<p>VientoEngine은 누구나 쉽게 사용하거나 개조가 가능하고 유지 보수가 편하도록 가볍게 설계되었으며, 기능도 정말 많은 위키 엔진입니다. 위키 설치는 기본적인 내용만 입력하면 끝나며 설정도 정말 간편합니다. 최적화를 최대한 했기에 개인 위키로도 사용이 가능하고, 50만개의 문서가 있는 대형 위키의 DB를 사용해도 문제가 없습니다.</p>
+		</div>
 	</body>
 	<footer>
-		2021. BlueWhite
+		<div class="container">
+			문의 : support@badawiki.site
+		</div>
 	</footer>
+	<script type="text/javascript">
+		TypeHangul.type('#maintitle', {intervalType: 60,});
+	</script>
 </html>
