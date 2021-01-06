@@ -78,7 +78,8 @@ footer {
 	#maintitle_default {
 		display: none;
 	}
+	
 	#maintitle_mobile {
-		display: block;
+		display: block!important;
 	}
 }
