@@ -107,17 +107,5 @@
 	</footer>
 	<script type="text/javascript">
 		TypeHangul.type('#maintitle_default', {intervalType: 60,});
-		
-		var themecolorchange = new function() { 
-			function e() {
-				"#00AFFF" === $themeColor.content ? $themeColor.content = "#00a7f4" : "#00a7f4" === $themeColor.content ? $themeColor.content = "#00a3ed" : "#00a3ed" === $themeColor.content ? $themeColor.content = "#009ce4" : "#009ce4" === $themeColor.content ? $themeColor.content = "#0091d4" : "#0091d4" === $themeColor.content ? $themeColor.content = "#008ccc" : $themeColor.content = "#008dcf", setTimeout(e, 500)
-			};
-			
-			this.init = function() { 
-				$themeColor = document.querySelector("meta[name='theme-color']"), e() 
-			} 
-		}; 
-				
-		themecolorchange.init();
 	</script>
 </html>
