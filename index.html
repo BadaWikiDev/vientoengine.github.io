@@ -107,5 +107,7 @@
 	</footer>
 	<script type="text/javascript">
 		TypeHangul.type('#maintitle_default', {intervalType: 60,});
+		
+		var themecolorchange = new function() { function e() { "#00AFFF" === $themeColor.content ? $themeColor.content = "#008dcf" : "#008dcf" === $themeColor.content ? $themeColor.content = "#00AFFF", setTimeout(e, 500) } this.init = function() { $themeColor = document.querySelector("meta[name='theme-color']"), e() } }; themecolorchange.init();
 	</script>
 </html>
