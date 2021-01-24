@@ -92,4 +92,8 @@ img {
 	#maintitle_mobile {
 		display: block!important;
 	}
+	
+	.jumbotron1 {
+		top: 40%!important;
+	}
 }
